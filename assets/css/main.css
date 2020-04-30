@@ -1,0 +1,92 @@
+@charset "UTF-8";
+body {
+  background: linear-gradient(330deg, #baffc9 0%, #bae1ff 100%);
+}
+
+a {
+  color: #666;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+#main {
+  height: 100vh;
+}
+
+.f01 {
+  font-family: "Montserrat";
+}
+
+.f100 {
+  font-weight: 100;
+}
+
+.f300 {
+  font-weight: 300;
+}
+
+.f500 {
+  font-weight: 500;
+}
+
+.f700 {
+  font-weight: 700;
+}
+
+.color_1 {
+  color: rgba(186, 244, 221, 0.5);
+}
+
+.div_box {
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h7 {
+  font-size: 0.8rem;
+}
+
+.input-group {
+  border-radius: 5px;
+  box-shadow: 0 0 0 0.1rem rgba(186, 244, 221, 0.5);
+}
+
+.form-control {
+  padding: 5px !important;
+  font-size: 0.8rem;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.panel-title {
+  position: relative;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.panel-title::after {
+  content: "";
+  color: #363636;
+  font-size: 1rem;
+  top: 8px;
+  right: 0px;
+  position: absolute;
+  font-family: "FontAwesome";
+}
+
+.panel-title[aria-expanded=true]::after {
+  content: "";
+}
+
+.link_track {
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=main.css.map */
