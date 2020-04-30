@@ -1,3 +1,9 @@
+Alterar $config['base_url']: application/config/config.php na linha 26
+
+HTML, CSS/SASS, CodeIgniter, Bootstrap e jQuery.
+
+_____________________________________
+
 # Fullstack Test
 
 ## Context
